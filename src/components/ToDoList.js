@@ -6,7 +6,7 @@ const tasks = [
   "Fazer Minilab",
 ];
 
-function lista() {
+function Lista() {
   return (
     <ul className="list-group">
       {tasks.map((currentElement, index) => {
@@ -21,4 +21,4 @@ function lista() {
   );
 }
 
-export default lista();
+export default Lista;

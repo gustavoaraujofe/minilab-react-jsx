@@ -1,6 +1,6 @@
 import img from '../assets/images/puppy.jpg'
 
-function profile() {
+function Profile() {
   return (
     <div className="card" style={{width: "18rem"}}>
       <img src={img} className="card-img-top" alt="..." />
@@ -14,4 +14,4 @@ function profile() {
   );
 }
 
-export default profile();
+export default Profile;

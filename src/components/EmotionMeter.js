@@ -1,6 +1,6 @@
 let emotion = "HAPPY";
 
-function emotions() {
+function Emotions() {
   return emotion === "HAPPY" ? (
     <i className="fas fa-smile-beam fa-5x"></i>
   ) : emotion === "SAD" ? (
@@ -8,4 +8,4 @@ function emotions() {
   ) : null;
 }
 
-export default emotions();
+export default Emotions;
